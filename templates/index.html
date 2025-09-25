@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eros – Face Geometry</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <img src="{{ url_for('static', filename='assets/logo.png') }}" class="logo" alt="Eros">
+    <h1>Eros</h1>
+    <p class="tagline">Upload a face. Get raw geometry stats.</p>
+
+    <form method="POST" enctype="multipart/form-data" class="upload-form" id="uploadForm">
+        <label for="file" class="upload-box">
+            <img src="{{ url_for('static', filename='assets/upload.svg') }}" alt="Upload">
+            <span>Tap to upload</span>
+            <input id="file" type="file" name="image" accept="image/*" required>
+        </label>
+        <div class="preview-container">
+            <img id="preview" class="preview" alt="Preview" style="display:none;">
+        </div>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <a class="research" href="https://github.com/Rexaintreal/Eros/blob/main/README.md" target="_blank">
+        Research
+    </a>
+</div>
+
+<script>
+const fileInput = document.getElementById('file');
+const preview   = document.getElementById('preview');
+
+fileInput.addEventListener('change', e => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => {
+        preview.src = ev.target.result;
+        preview.style.display = 'block';
+    };
+    reader.readAsDataURL(file);
+});
+</script>
+</body>
+</html>

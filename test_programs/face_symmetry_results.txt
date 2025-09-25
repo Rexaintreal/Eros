@@ -1,0 +1,46 @@
+Face Symmetry Analysis Results
+==================================================
+
+man2.jpg = 5/10 symm
+  Symmetry Percentage: 65.9%
+  Brow Width Ratio: 1.34x eye distance
+  Nose to Left Eye: 0.98x eye distance
+  Nose to Right Eye: 0.73x eye distance
+  Nose to Lip: 0.41x eye distance
+  Lip Gap: 0.04x eye distance
+  Symmetry Ratio: 1.341
+------------------------------
+
+man3.jpg = 3/10 symm
+  Symmetry Percentage: 42.2%
+  Brow Width Ratio: 1.39x eye distance
+  Nose to Left Eye: 0.93x eye distance
+  Nose to Right Eye: 0.59x eye distance
+  Nose to Lip: 0.44x eye distance
+  Lip Gap: 0.05x eye distance
+  Symmetry Ratio: 1.578
+------------------------------
+
+man4.jpg = 6/10 symm
+  Symmetry Percentage: 70.7%
+  Brow Width Ratio: 1.33x eye distance
+  Nose to Left Eye: 0.97x eye distance
+  Nose to Right Eye: 0.75x eye distance
+  Nose to Lip: 0.43x eye distance
+  Lip Gap: 0.02x eye distance
+  Symmetry Ratio: 1.293
+------------------------------
+
+manasymm.jpg = No face detected
+------------------------------
+
+mansymm.jpg = 4/10 symm
+  Symmetry Percentage: 59.8%
+  Brow Width Ratio: 1.36x eye distance
+  Nose to Left Eye: 1.04x eye distance
+  Nose to Right Eye: 0.74x eye distance
+  Nose to Lip: 0.41x eye distance
+  Lip Gap: 0.04x eye distance
+  Symmetry Ratio: 1.402
+------------------------------
+
