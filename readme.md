@@ -180,5 +180,3 @@ MIT License - do whatever you want with this code.
 This is just math applied to faces. Your worth as a human isn't determined by facial geometry ratios. I built this because the science is interesting, not to make anyone feel bad about their face.
 
 Use for fun/education only.
-# Eros
-An Android Application built using flutter for front end and python and openCV for backend to analyze and give tips on facial features based on the distance, symmetry on facial landmarks and beauty standard of that region.
